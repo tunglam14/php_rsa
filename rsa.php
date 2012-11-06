@@ -21,7 +21,6 @@ openssl rsa -in private.pem -out public.pem -outform PEM -pubout
 
 class RSA
 {
-    # Khai bao cac tham so lien quan
     public $phrase = null;
     public $public_file = null;
     public $private_file = null;
